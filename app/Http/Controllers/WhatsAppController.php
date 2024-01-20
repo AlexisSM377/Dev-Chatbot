@@ -12,7 +12,7 @@ class WhatsAppController extends Controller
         // Instantiate the WhatsAppCloudApi super class.
         $whatsapp_cloud_api = new WhatsAppCloudApi([
             'from_phone_number_id' => '107197942400428',
-            'access_token' => 'EAAUzZBouhua8BALU9j16xZCxiEt1zKBj1ZB6tfBhFmu8D5HN31RZCIzaVZBZC4uLdAJHiHnNGb9GwfJZBgMHPdhcZCpjVntUR1Rrj1mlHZCyrDUhUO5wIPkXveLrYfPcblt7snKYJenhAN6JOKSyGQNhqk0tZBPhQEDmqoZCFTANJuzfG42hNXlggHj',
+            'access_token' => 'EAAkWxxB35h4BAL1CItzSiVhYBYBpUebXRmZBrv2t4zGi6FWfZAG9MNV9EVt7GfurOUyUPlOJ4ZBcjiv1NCx8D4TgvCd8YuGu8zhIfF7JvvjMYsxAzGj7qHVREG8d4UqZAzH3UCWqt07wEOAWssjZAVv3fZBdrmvBZBl8iaBPiQVZBA0yNFiDmmBuyyNfK8Qw6bHbNerFUZCZCeKREI9wC060qCfYjE5oUI4D0ZD',
         ]);
 
         $whatsapp_cloud_api->sendTextMessage('527121461514', '¡Hola! Soy Bitbot, tu asistente virtual de BIT, ¡es un gusto contactar contigo! 🤖');
